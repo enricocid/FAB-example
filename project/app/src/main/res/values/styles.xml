@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme for <M devices -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/tealA400</item>
+        <item name="colorAccent">@color/tealA400</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- FAB buttons layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end">
+
+    <!-- FAB two -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        app:fabSize="mini" />
+
+    <!-- FAB one -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fab_two"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        app:fabSize="mini" />
+
+    <!-- Main FAB -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fab_one"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:elevation="6dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/avd_pathmorph_plusminus_plus_to_minus" />
+</RelativeLayout>
